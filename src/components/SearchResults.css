@@ -1,0 +1,66 @@
+.results-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mark-section .logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.details-section h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.details-section p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.status-section .status-live {
+  font-size: 0.9rem;
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.expiry-section .expiry-date {
+  font-size: 0.9rem;
+  color: #ff5722;
+}
+
+.description-section p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.classes {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.class-tag {
+  font-size: 0.8rem;
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
